@@ -1,0 +1,51 @@
+<?php include("../conexiones/db.php") ?>
+<?php
+
+session_start();
+
+$varsesion = $_SESSION['user_id'];
+$sql1 = "select niveles.Nivel from usuarios INNER JOIN niveles on usuarios.Nivel = niveles.Nivel where usuarios.email = '$varsesion'";
+$rs1 = mysqli_query($conn,$sql1);
+$arreglo1 = mysqli_fetch_row($rs1);
+
+if ($arreglo1[0] !=1 && $arreglo1[0] !=3) {
+    echo "USTED NO TIENE AUTORIZACION";
+die();
+}
+?>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Reportes</title>
+	<link rel="stylesheet" type="text/css" href="../CSS/Reportes.css">
+</head>
+<center>
+<body>
+ <a href="ReporteEmpleadosone.php"><button class="boton4">Reporte Empleados</button></a>
+ <br>
+ <br>
+  <a href="Reportesclientes.php"><button class="boton4">Reporte Clientes</button></a>
+   <br>
+   <br>
+   <a href="Reporteproveedores.php"><button class="boton4">Reporte Proveedores</button></a>
+    <br>
+    <br>
+    <a href="Reporteproductos.php"><button class="boton4">Reporte Productos</button></a>
+     <br>
+     <br>
+     <a href="Reporteentradas.php"><button class="boton4">Reporte de Entradas</button></a>
+      <br>
+      <br>
+      <a href="Reportesalidas.php"><button class="boton4">Reporte de Salidas</button></a>
+       <br>
+       <br>
+       <a href="ReportedetalleS.php"><button class="boton4">Reporte detalle de salidas</button></a>
+        <br>
+        <br>
+        <a href="ReportedetalleE.php"><button class="boton4">Reporte detalle de entrada</button></a>
+         <br>
+         <br>
+         <a href="ReporteEmpleados.php"><button class="boton4">Total de reportes</button></a>
+</body>
+ </center>
+</html>

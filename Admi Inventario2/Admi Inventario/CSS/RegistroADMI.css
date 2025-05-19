@@ -1,0 +1,137 @@
+
+body{
+    background-image: radial-gradient(circle at 50.28% 51.61%, #7654b6 0, #4a3a88 25%, #1f1f59 50%, #00002d 75%, #000003 100%);
+
+}
+fieldset{
+    border-radius: 50px;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: seashell;
+    position: relative;
+    bottom: 20px;
+    left: 500px;
+    padding: 10px;
+    height: 880px;
+    width : 890px; 
+    margin: 1.5%; 
+}
+#titulo{
+    font-size:xx-large;
+    border-radius: 20px;
+    position: relative;
+    bottom: 5px;
+}
+.input{
+    padding: 8px 5px;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 15px;
+    position: relative;
+    float: right;
+    right: 50px;
+    width: 52%;
+    bottom: 20px;
+    } 
+FONT{
+    margin: 100px;
+    position: relative;
+    top: 19px;
+
+}
+
+    .boton1 {
+  
+        display: inline-block;
+        padding: 10px 25px;
+        font-size: 24px;
+        cursor: pointer;
+        text-align: center;
+        text-decoration: none;
+        outline: none;
+        color: rgb(0, 0, 0);
+        background-color: #bbc9d1;
+        border: none;
+        border-radius: 20px;
+        box-shadow: 0 9px rgb(10, 10, 10);
+      }
+      
+      .boton1:hover {background-color: #c0d0ec}
+      
+      .boton1:active {
+        background-color: #fcf9fd;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+      }
+      .boton2 {
+        display: inline-block;
+        padding: 10px 25px;
+        font-size: 24px;
+        cursor: pointer;
+        text-align: center;
+        text-decoration: none;
+        outline: none;
+        color: rgb(10, 10, 10);
+        background-color: #bbc9d1;
+        border: none;
+        border-radius: 20px;
+        box-shadow: 0 9px rgb(14, 13, 13);
+      }
+      
+      .boton2:hover {background-color: #c0d0ec}
+      
+      .boton2:active {
+        background-color: #faf6fc;
+        box-shadow: 0 5px rgb(8, 8, 8);
+        transform: translateY(4px);
+      }
+
+
+ .boton3 {
+  
+  display: inline-block;
+        padding: 10px 25px;
+        font-size: 24px;
+        cursor: pointer;
+        text-align: center;
+        text-decoration: none;
+        outline: none;
+        color: rgb(0, 0, 0);
+        background-color: #bbc9d1;
+        border: none;
+        border-radius: 20px;
+        box-shadow: 0 9px rgb(10, 10, 10);
+        position: relative;
+        top:50px;
+        left: 70px;
+      }
+      
+      .boton3:hover {background-color: #c0d0ec}
+      
+      .boton3:active {
+        background-color: #fcf9fd;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+      }
+      .boton4 {
+        display: inline-block;
+        padding: 10px 25px;
+        font-size: 24px;
+        cursor: pointer;
+        text-align: center;
+        text-decoration: none;
+        outline: none;
+        color: rgb(10, 10, 10);
+        background-color: #bbc9d1;
+        border: none;
+        border-radius: 20px;
+        box-shadow: 0 9px rgb(14, 13, 13);
+        position: relative;
+        left: 200px;
+      }
+      
+      .boton4:hover {background-color: #c0d0ec}
+      
+      .boton4:active {
+        background-color: #faf6fc;
+        box-shadow: 0 5px rgb(8, 8, 8);
+        transform: translateY(4px);
+      }

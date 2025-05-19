@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Hubballi', cursive;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+}
+
+fieldset{
+      border-radius: 50px;
+      background: radial-gradient(circle at 37.58% 52.19%, #FF4500 0, #FF4500 25%, #FF8C00  50%, #FF8C00 75%, #FF4500 100%);
+      color: rgb(0, 0, 0);
+      position: relative;
+      top: 10px;
+      left: 550px;
+      height: 55px;
+      width : 300px;
+      margin: 2px; 
+      font-family: cursive;
+}
+
+.input{
+      padding: 2px 5px;
+      border: 3px solid rgb(7, 7, 7);
+      border-radius: 15px;
+      position: relative;
+      right: 10px;
+      top: 25px;
+      width: 52%;
+      height: 30px;
+      } 
+
+
+.ney {
+    
+    display: inline-block;
+          padding: 10px 25px;
+          font-size: 24px;
+          cursor: pointer;
+          text-align: center;
+          text-decoration: none;
+          outline: none;
+          color: rgb(252, 247, 247);
+          background-color: #424446;
+          border: none;
+          border-radius: 20px;
+          box-shadow: 0 9px rgb(10, 10, 10);
+          position: relative;
+          top: 25px;
+          right: 10px;
+        }
+        
+        .ney:hover {background-color: #FFA500}
+        
+        .ney:active {
+          background-color: #fcf9fd;
+          box-shadow: 0 5px #666;
+          transform: translateY(4px);
+        }

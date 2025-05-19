@@ -1,0 +1,84 @@
+.uno{
+    border-style: double;
+    border-radius: 50px ;
+    background: radial-gradient(circle at 37.58% 52.19%, #FF4500 0, #FF4500 25%, #FF8C00  50%, #FF8C00 75%, #FF4500 100%);
+    color: rgb(255, 255, 255);
+    height: 70px; 
+    font-size:  50px;
+}
+body{
+   background-color: #F4A460;
+}
+.table{
+    background-color: rgb(245, 240, 240);
+    color: rgb(5, 5, 5);
+    height: 15% ;
+    width: 100%;
+    background: #FF7F50;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+
+th{
+    color: rgb(5, 5, 5);
+    background-color:#FFA500;
+    border-style: inset;
+    font-family: cursive;
+    border-radius: 10px;
+}
+tr{
+    border-style: inset;
+    background-color: rgb(0, 0, 0, 0.08);
+    font-family: monospace;
+}
+.boton3 {
+
+    display: inline-block;
+    padding: 10px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: rgb(0, 0, 0);
+    background-color: #000000;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 9px rgb(10, 10, 10);
+    margin-left: 550px;
+    color:white;
+  }
+  
+  .boton3:hover {background-color: #FFA500;}
+  
+  .boton3:active {
+    background-color: #fcf9fd;
+    box-shadow: 0 5px white;
+    transform: translateY(4px);
+}
+
+.botonlol{
+    display: inline-block;
+    padding: 10px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: rgb(0, 0, 0);
+    background-color: #000000;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 9px rgb(10, 10, 10);
+    margin-left:40px;
+    color:white;
+}
+
+ .botonlol:hover {background-color: #FFA500;}
+  
+  .botonlol:active {
+    background-color: #fcf9fd;
+    box-shadow: 0 5px white;
+    transform: translateY(4px);
+}
+
