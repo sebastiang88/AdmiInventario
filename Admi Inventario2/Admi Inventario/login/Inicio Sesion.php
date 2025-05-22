@@ -1,5 +1,25 @@
 <?php
+session_start();
 
+require 'database.php';
+
+if (!empty($_POST['email']) && !empty($_POST['password'])) {
+   $records = $conn->prepare('SELECT id, email, password FROM usuarios WHERE email=:email');
+   $records->bindParam(':email', $_POST['email']);
+   $records->execute();
+   $Array3 = $records->fetch(PDO::FETCH_ASSOC);
+
+   $message = '';
+
+   if (count($Array3) > 0 && password_verify($_POST['password'], $Array3['password'])) {
+      $_SESSION['user_id'] = $Array3['email'];
+      //header("Location:../HTML/Registros.php");
+      echo '<script>location.href="../HTML/Registros.php"</script>';
+   } else {
+      $message = 'Sus credenciales no son correctas';
+   }
+}
+?>
 <!DOCTYPE html>
 <html>
 <head>
