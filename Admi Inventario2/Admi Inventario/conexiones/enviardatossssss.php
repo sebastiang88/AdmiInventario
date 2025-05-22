@@ -19,6 +19,6 @@ if (isset($_POST['Agregar'])) {
   	die("query failed");
   }
 
-  header("Location:../HTML/AgregarSalida.php");
+  
 }
 ?>
